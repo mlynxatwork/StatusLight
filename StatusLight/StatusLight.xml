@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/bert.nielson/Source/StatusLight/StatusLight.sch</source>
+    <date>Saturday, July 22, 2017 'PMt' 03:45:41 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>StatusLight.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="10K2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59725307</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973802F</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597380A4</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597380E6</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738158</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738182</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Keyboard:CHERRY_PCB_100H</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597381C1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738400</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738445</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597384A3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATTINY85-20PU</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="atmel" part="ATTINY85-20PU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738694</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B</value>
+      <footprint>Connectors:USB_B_MUSB_Straight</footprint>
+      <libsource lib="conn" part="USB_B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597386E7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Audio-Jack-3</value>
+      <footprint>SJ1-352X:SJ1-352XN</footprint>
+      <libsource lib="conn" part="Audio-Jack-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738767</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Audio-Jack-3</value>
+      <footprint>SJ1-352X:SJ1-352XN</footprint>
+      <libsource lib="conn" part="Audio-Jack-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738B05</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>WS2812B</value>
+      <footprint>LEDs:LED_WS2812B-PLCC4</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738B5E</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>WS2812B</value>
+      <footprint>LEDs:LED_WS2812B-PLCC4</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738C90</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>WS2812B</value>
+      <footprint>LEDs:LED_WS2812B-PLCC4</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738D3E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738DA3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738E02</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59738E62</tstamp>
+    </comp>
+    <comp ref="10K3">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973A6DA</tstamp>
+    </comp>
+    <comp ref="10K4">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973A743</tstamp>
+    </comp>
+    <comp ref="10K6">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973A797</tstamp>
+    </comp>
+    <comp ref="10K5">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973A7F1</tstamp>
+    </comp>
+    <comp ref="10K1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5973A84B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59740135</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>WS2812B</value>
+      <footprint>LEDs:LED_WS2812B-PLCC4</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597401B6</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>WS2812B</value>
+      <footprint>LEDs:LED_WS2812B-PLCC4</footprint>
+      <libsource lib="ws2812b" part="WS2812B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59740241</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597402BB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY25-20PU">
+      <aliases>
+        <alias>ATTINY45-20PU</alias>
+        <alias>ATTINY85-20PU</alias>
+      </aliases>
+      <description>PDIP8, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire</description>
+      <docs>http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY25-20PU</field>
+        <field name="Footprint">Housings_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/dW/ADC0/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3(XTAL1/CLKI/OC1B/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Audio-Jack-3">
+      <description>3-pin audio jack receptable (stereo/TRS connector)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Audio-Jack-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_B">
+      <description>USB Type B connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ws2812b" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">WS2812B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ws2812b">
+      <uri>/Users/bert.nielson/Library/Application Support/kicad-library/WS2812B.pretty/Schematic-Symbol/ws2812b.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/Users/bert.nielson/Library/Application Support/kicad-library/library/switches.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Users/bert.nielson/Library/Application Support/kicad-library/library/device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/Users/bert.nielson/Library/Application Support/kicad-library/library/atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Users/bert.nielson/Library/Application Support/kicad-library/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(10K2-Pad1)">
+      <node ref="10K2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(10K6-Pad2)">
+      <node ref="SW6" pin="2"/>
+      <node ref="10K6" pin="2"/>
+    </net>
+    <net code="3" name="Net-(LED4-Pad2)">
+      <node ref="LED5" pin="4"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="4" name="Net-(LED5-Pad2)">
+      <node ref="LED5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(10K4-Pad2)">
+      <node ref="10K4" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="6" name="Net-(LED3-Pad2)">
+      <node ref="LED4" pin="4"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="13" name="Net-(LED1-Pad2)">
+      <node ref="LED2" pin="4"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(LED2-Pad2)">
+      <node ref="LED3" pin="4"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="16" name="Net-(10K1-Pad2)">
+      <node ref="10K1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="10K2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(10K3-Pad2)">
+      <node ref="SW3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="10K3" pin="2"/>
+      <node ref="10K4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(10K5-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="10K6" pin="1"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="10K5" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="U1" pin="4"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="LED4" pin="3"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="10K1" pin="1"/>
+      <node ref="10K5" pin="1"/>
+      <node ref="10K3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED2" pin="3"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED3" pin="3"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="LED5" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="LED1" pin="3"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Keyboard)(type KiCad)(uri "/Users/bert.nielson/Library/Application Support/kicad-library/Keyboard.pretty")(options "")(descr ""))
+  (lib (name SJ1-352X)(type KiCad)(uri "$(KIPRJMOD)/SJ1-352X.pretty")(options "")(descr ""))
+)

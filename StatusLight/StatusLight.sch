@@ -1,0 +1,368 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:diode
+LIBS:leds
+LIBS:maxim
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:switches
+LIBS:ws2812b
+LIBS:StatusLight-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R 10K2
+U 1 1 59725307
+P 3050 4750
+F 0 "10K2" V 3130 4750 50  0000 C CNN
+F 1 "R" V 3050 4750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2980 4750 50  0001 C CNN
+F 3 "" H 3050 4750 50  0000 C CNN
+	1    3050 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 59725366
+P 3950 5450
+F 0 "#PWR01" H 3950 5200 50  0001 C CNN
+F 1 "GND" H 3950 5300 50  0000 C CNN
+F 2 "" H 3950 5450 50  0000 C CNN
+F 3 "" H 3950 5450 50  0000 C CNN
+	1    3950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW6
+U 1 1 5973802F
+P 4250 5100
+F 0 "SW6" H 4300 5200 50  0000 L CNN
+F 1 "SW_Push" H 4250 5040 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 4250 5300 50  0001 C CNN
+F 3 "" H 4250 5300 50  0001 C CNN
+	1    4250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW4
+U 1 1 597380A4
+P 3550 5100
+F 0 "SW4" H 3600 5200 50  0000 L CNN
+F 1 "SW_Push" H 3550 5040 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 3550 5300 50  0001 C CNN
+F 3 "" H 3550 5300 50  0001 C CNN
+	1    3550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 597380E6
+P 2850 5100
+F 0 "SW2" H 2900 5200 50  0000 L CNN
+F 1 "SW_Push" H 2850 5040 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 2850 5300 50  0001 C CNN
+F 3 "" H 2850 5300 50  0001 C CNN
+	1    2850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW5
+U 1 1 59738158
+P 4250 4400
+F 0 "SW5" H 4300 4500 50  0000 L CNN
+F 1 "SW_Push" H 4250 4340 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 4250 4600 50  0001 C CNN
+F 3 "" H 4250 4600 50  0001 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW3
+U 1 1 59738182
+P 3550 4400
+F 0 "SW3" H 3600 4500 50  0000 L CNN
+F 1 "SW_Push" H 3550 4340 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 3550 4600 50  0001 C CNN
+F 3 "" H 3550 4600 50  0001 C CNN
+	1    3550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW1
+U 1 1 597381C1
+P 2850 4400
+F 0 "SW1" H 2900 4500 50  0000 L CNN
+F 1 "SW_Push" H 2850 4340 50  0000 C CNN
+F 2 "Keyboard:CHERRY_PCB_100H" H 2850 4600 50  0001 C CNN
+F 3 "" H 2850 4600 50  0001 C CNN
+	1    2850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATTINY85-20PU U1
+U 1 1 59738694
+P 6500 3900
+F 0 "U1" H 5350 4300 50  0000 C CNN
+F 1 "ATTINY85-20PU" H 7500 3500 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 7500 3900 50  0001 C CIN
+F 3 "" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio-Jack-3 J1
+U 1 1 59738767
+P 8150 2900
+F 0 "J1" H 8100 3075 50  0000 C CNN
+F 1 "Audio-Jack-3" H 8250 2830 50  0000 C CNN
+F 2 "SJ1-352X:SJ1-352XN" H 8400 3000 50  0001 C CNN
+F 3 "" H 8400 3000 50  0001 C CNN
+	1    8150 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5973888A
+P 8150 4350
+F 0 "#PWR02" H 8150 4100 50  0001 C CNN
+F 1 "GND" H 8150 4200 50  0000 C CNN
+F 2 "" H 8150 4350 50  0001 C CNN
+F 3 "" H 8150 4350 50  0001 C CNN
+	1    8150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10K3
+U 1 1 5973A6DA
+P 3750 3650
+F 0 "10K3" V 3830 3650 50  0000 C CNN
+F 1 "R" V 3750 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0000 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10K4
+U 1 1 5973A743
+P 3750 4750
+F 0 "10K4" V 3830 4750 50  0000 C CNN
+F 1 "R" V 3750 4750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 4750 50  0001 C CNN
+F 3 "" H 3750 4750 50  0000 C CNN
+	1    3750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10K6
+U 1 1 5973A797
+P 4450 4750
+F 0 "10K6" V 4530 4750 50  0000 C CNN
+F 1 "R" V 4450 4750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4750 50  0001 C CNN
+F 3 "" H 4450 4750 50  0000 C CNN
+	1    4450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10K5
+U 1 1 5973A7F1
+P 4450 3650
+F 0 "10K5" V 4530 3650 50  0000 C CNN
+F 1 "R" V 4450 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 3650 50  0001 C CNN
+F 3 "" H 4450 3650 50  0000 C CNN
+	1    4450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10K1
+U 1 1 5973A84B
+P 3050 3650
+F 0 "10K1" V 3130 3650 50  0000 C CNN
+F 1 "R" V 3050 3650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2980 3650 50  0001 C CNN
+F 3 "" H 3050 3650 50  0000 C CNN
+	1    3050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 5973B8B9
+P 3950 3250
+F 0 "#PWR03" H 3950 3100 50  0001 C CNN
+F 1 "+5V" H 3950 3390 50  0000 C CNN
+F 2 "" H 3950 3250 50  0001 C CNN
+F 3 "" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3650 5150 3100
+Wire Wire Line
+	5150 3100 8050 3100
+Wire Wire Line
+	4450 3800 4450 4600
+Wire Wire Line
+	3750 3950 5150 3950
+Wire Wire Line
+	4450 4050 5150 4050
+Connection ~ 3950 5450
+Wire Wire Line
+	3950 3500 3950 3250
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3800 3750 4600
+Connection ~ 3750 3950
+Connection ~ 3750 4400
+Wire Wire Line
+	3750 4900 3750 5100
+Wire Wire Line
+	3350 5450 3350 4400
+Connection ~ 3350 5450
+Connection ~ 3350 5100
+Wire Wire Line
+	3050 3800 3050 4600
+Connection ~ 3050 4400
+Connection ~ 3050 3850
+Wire Wire Line
+	3050 4900 3050 5100
+Wire Wire Line
+	2650 4400 2650 5450
+Connection ~ 2650 5100
+Connection ~ 3950 3500
+Connection ~ 4450 4400
+Connection ~ 4450 4050
+Wire Wire Line
+	4050 5450 4050 4400
+Connection ~ 4050 5450
+Connection ~ 4050 5100
+Wire Wire Line
+	4450 4900 4450 5100
+Wire Wire Line
+	3050 3500 4450 3500
+Wire Wire Line
+	2650 5450 4050 5450
+Connection ~ 5150 3850
+Wire Wire Line
+	3050 3850 5150 3850
+Connection ~ 5150 3950
+Connection ~ 5150 4050
+Connection ~ 3950 3250
+NoConn ~ 5150 4150
+NoConn ~ 5150 3750
+$Comp
+L USB_OTG J2
+U 1 1 5973CE99
+P 8750 3950
+F 0 "J2" H 8550 4400 50  0000 L CNN
+F 1 "USB_OTG" H 8550 4300 50  0000 L CNN
+F 2 "Connectors:USB_Mini-B" H 8900 3900 50  0001 C CNN
+F 3 "" H 8900 3900 50  0001 C CNN
+	1    8750 3950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 8450 3950
+NoConn ~ 8450 4050
+NoConn ~ 8450 4150
+Connection ~ 8150 4350
+$Comp
+L GND #PWR04
+U 1 1 5973DD4F
+P 8750 4350
+F 0 "#PWR04" H 8750 4100 50  0001 C CNN
+F 1 "GND" H 8750 4200 50  0000 C CNN
+F 2 "" H 8750 4350 50  0001 C CNN
+F 3 "" H 8750 4350 50  0001 C CNN
+	1    8750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5973DD99
+P 8850 4350
+F 0 "#PWR05" H 8850 4100 50  0001 C CNN
+F 1 "GND" H 8850 4200 50  0000 C CNN
+F 2 "" H 8850 4350 50  0001 C CNN
+F 3 "" H 8850 4350 50  0001 C CNN
+	1    8850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 5973DE09
+P 7850 3650
+F 0 "#PWR06" H 7850 3500 50  0001 C CNN
+F 1 "+5V" H 7850 3790 50  0000 C CNN
+F 2 "" H 7850 3650 50  0001 C CNN
+F 3 "" H 7850 3650 50  0001 C CNN
+	1    7850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5973DE8D
+P 8450 2700
+F 0 "#PWR07" H 8450 2550 50  0001 C CNN
+F 1 "+5V" H 8450 2840 50  0000 C CNN
+F 2 "" H 8450 2700 50  0001 C CNN
+F 3 "" H 8450 2700 50  0001 C CNN
+	1    8450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2700 8450 3750
+Wire Wire Line
+	8450 2700 8250 2700
+Connection ~ 7850 3650
+Connection ~ 8450 2700
+Connection ~ 8750 4350
+Wire Wire Line
+	8150 4150 7850 4150
+Wire Wire Line
+	8150 3100 8150 4350
+Connection ~ 8150 4150
+Connection ~ 8450 3750
+$EndSCHEMATC
