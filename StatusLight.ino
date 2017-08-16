@@ -36,25 +36,25 @@ ISR(TIMER1_COMPA_vect){
   if(oneState <= 900){ //it's no longer High
     if(onePressed){ //this is the second time we've read the button
       if(oneState <= 100){ //reading zero go green
-        color.hue = 96;
+        color.hue = 96; //green
         onePressed = 0;
       } else {
-        color.hue = 160;
+        color.hue = 160; //blue
         onePressed = 0;
       }
     } else {
       onePressed = 1;
     }
   }
-  
+
   twoState = analogRead(buttonTwo);
   if(twoState <= 900){ //it's no longer High
     if(twoPressed){ //this is the second time we've read the button
-      if(twoState <= 100){ 
+      if(twoState <= 100){
         color.hue = 0;
-        twoPressed = 0;
+        twoPressed = 0; //Red
       } else {
-        color.hue = 50;
+        color.hue = 128; //teal
         twoPressed = 0;
       }
     } else {
@@ -65,11 +65,11 @@ ISR(TIMER1_COMPA_vect){
   threeState = analogRead(buttonThree);
   if(threeState <= 900){ //it's no longer High
     if(threePressed){ //this is the second time we've read the button
-      if(threeState <= 100){ 
-        color.hue = 128;
+      if(threeState <= 100){
+        color.hue = 50; //yellow
         threePressed = 0;
       } else {
-        color.hue = 192;
+        color.hue = 192; //purple
         threePressed = 0;
       }
     } else {
@@ -82,7 +82,7 @@ ISR(TIMER1_COMPA_vect){
 void setup() {
   // put your setup code here, to run once:
   FastLED.addLeds<NEOPIXEL, DATAPIN>(leds, NUM_LEDS);
-  
+
   pinMode(buttonOne, INPUT_PULLUP);
   pinMode(buttonTwo, INPUT_PULLUP);
   pinMode(buttonThree, INPUT_PULLUP);
@@ -92,8 +92,8 @@ void setup() {
 }
 
 void loop(){
-  
-  //just do a nice fade in and out. 
+
+  //just do a nice fade in and out.
   for(int i = 50; i < 255; i++){
     leds(0, NUM_LEDS-1) = CHSV(color.hue, 255, i);
     FastLED.show();
